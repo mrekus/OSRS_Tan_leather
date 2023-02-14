@@ -14,7 +14,7 @@ def main():
         time.sleep(round(uniform(0.08, 0.12), 2))
         for i in range(5):
             click_spell()
-            time.sleep(round(uniform(1.85, 1.95), 2))
+            time.sleep(round(uniform(1.65, 1.72), 2))
         click_bank()
         time.sleep(round(uniform(0.2, 0.3), 2))
         deposit_items()
