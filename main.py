@@ -1,7 +1,6 @@
 from bot.get_from_bank import click_leather_bank
 from bot.make_leather import click_spell
 from bot.deposit_to_bank import click_bank, deposit_items
-import win32gui
 import pyautogui
 import time
 from random import uniform
