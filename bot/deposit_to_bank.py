@@ -4,7 +4,7 @@ import pyautogui
 from random import randint, uniform
 
 
-def click_bank(x=randint(393, 1012), y=randint(293, 333)):
+def click_bank(x=randint(928, 1029), y=randint(293, 333)):
     win32api.SetCursorPos((x, y))
     time.sleep(round(uniform(0.40, 0.49), 2))
     pyautogui.click(clicks=1, interval=(round(uniform(0.09, 0.12), 2)))
